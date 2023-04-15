@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>HOJA-DE-VIDA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/img/rostro/YO.jpg">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Pablo</a>    
+            </div>  
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/rostro/YO.jpg" alt="">
+            </div>
+            <h1>Pablo E. Avelino</h1>
+            <h2>Estudiante de Ing. De Software con Inteligencia Artifial</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/emmanuel.avelino.19/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/GamesNiubi"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.tiktok.com/@ptm_niubi"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="http://wa.me/51935648050"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/emmanuel.peeb"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Pablo Avelino.</span> Estudiante de la carrera de  Ingeniería de Software 
+                con Inteligencia Artificial, 
+                con experiencia basica en Java,Python, y Html
+                </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            20-01-2004
+                        </li>
+                        <li>
+                            <strong>Celular</strong>
+                            935648050
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            1474244@senati.pe
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Jr. Aurora Nº 668 Carhuaz-Ancash
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Estudiante de Ing. de Software <br> <br> con Inteligencia Artificial - SENATI</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <a href="https://play.google.com/store/apps/details?id=com.dts.freefireth&hl=es_PE&gl=US&pli=1"><i class="fa-solid fa-gamepad"></a></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <a href="https://www.youtube.com/watch?v=OPf0YbXqDm0&list=PLy7ckoD2Of0gX6D9xYzM8bVcZz8VjctVz"><i class="fa-solid fa-headphones"></a></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <a href="https://scontent.flim12-1.fna.fbcdn.net/v/t39.30808-6/333811671_886939105719842_3390341809216776143_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGlJlIrzrBRHGpShP3kRPP0LUDJUJTDR4EtQMlQlMNHgWP3k4VIn_39Z-b-CNJAky4crqF8agUwxX_7geU8KcQo&_nc_ohc=QwX1cI9H6jQAX-e7Hbn&_nc_ht=scontent.flim12-1.fna&oh=00_AfCBOFRzGv3K3Q4cD8x-km7Ltan9cptu1xX5nKH1F0fltw&oe=6440269C"><i class="fa-solid fa-basketball"></i></a>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <a href="https://www.planetadelibros.com.pe/libro-luna-de-pluton/209415"><i class="fa-solid fa-book"></i></a>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <a href="https://cdn.memegenerator.es/imagenes/memes/full/30/50/30500689.jpg"><i class="fa-solid fa-heart"></i></a>
+                            <span>INTERESES AMOROSOS</span>
+                        </div>
+                        <div class="interes">
+                            <a href="#portafolio"><i class="fa-solid fa-camera"></i></a>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                <i class="fa-solid fa-download">
+                    <a href="documentos/CV.doc"download>Descargar CV</a>
+                </i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>HABILIDADES</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades Tecnológicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>15%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>19%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Análisis y Diseño de Sistemas</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>15%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Administración de Redes</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>4%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">     
+                        <span>Administración de Base de Datos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>5%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Matematica</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>EX ESTUDIANTE</h4>
+                        <span class="casa">I.E. Maria Auxiliadora - Carhuaz</span>
+                        <span class="fecha">2010 - 2020</span>
+                        <p>Estudiante del colegio Maria Auxiliadora con enseñansas basicas en un colegio estatal.</p>
+                        <p>Ingresante en el 2010 en el grado de primaria y seguido del nivel secundario en el año 2016</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Danza</h4>
+                        <span class="casa">Danzante en el Colegio</span>
+                        <span class="fecha">2016 - 2019</span>
+                        <p>Ganadores en el primer, tercer y cuarto grado de secundaria (primero y cuarto como primeros y tercero como segundo lugar)</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Programador</h4>
+                        <span class="casa">Senati - Huaraz</span>
+                        <span class="fecha">2023 - ?</span>
+                        <p>Programador basico (Por ahora) en los cursos de Python,JAVA y HTML que apoya mucho en los inicios de la programacion.    </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <div class="item der">
+                        <h4>Retirado en el ambito pre-universitario</h4>
+                        <span class="casa">Academia La Formula - Carhuaz</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Estudiante con experiencia practiva en el ambito pre-universitario que no logro alcanzar un cupo, y abandono la carrera por algo mejor que es la SENATI.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Participador del primer torneo de basquet en Carhuaz</h4>
+                        <span class="casa">Academia del deporte de Carhuaz</span>
+                        <span class="fecha">Enero 2023 - Marzo 2023</span>
+                        <p>Aprendizaje y participacion en el primer torneo de basquetball, obteniendo el 3º lugar con 3 triunfos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Jugador no tan profesional</h4>
+                        <span class="casa">Dota 2</span>
+                        <span class="fecha">2013 - 2023 a mas</span>
+                        <p>Jugador desde el 2013 con apoyo de amigos, poco a poco aprendiendo mas , hasta el dia de hoy se va mejorando poco a poco.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portafolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO DE RECUERDOS</Datag></h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/carrusel/foto2.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>RECUERDOS</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/carrusel/foto3.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>RECUERDOS</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/carrusel/foto4.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>RECUERDOS</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/carrusel/foto8.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>RECUERDOS</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/carrusel/foto6.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>RECUERDOS</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/carrusel/foto7.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>RECUERDOS</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        ENVIAR MENSAJE <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d296.9205928783265!2d-77.6477501983505!3d-9.280191835633238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1681582067638!5m2!1ses-419!2spe" width="530" height="530" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                    Carhuaz - Ancash
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos al: 935648050 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: 1474244@senati.pe
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/emmanuel.avelino.19/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/GamesNiubi"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.tiktok.com/@ptm_niubi"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="http://wa.me/51935648050"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/emmanuel.peeb"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p>
+            &copy;<a href="https://www.senati.edu.pe">Ingenieria de Software II Ciclo - Senati</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
